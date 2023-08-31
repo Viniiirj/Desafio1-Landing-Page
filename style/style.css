@@ -15,9 +15,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-
-}
 
 header {
     height: 475px;
@@ -31,7 +28,7 @@ header {
 
 #header{
     margin: auto;
-    width: 1440px;
+    max-width: 1440px;
 
 }
 
@@ -54,7 +51,6 @@ header {
 }
 
 main {
-    width: 1440px;  
     margin: auto;  
 }
 
@@ -62,7 +58,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1440px;
+    max-width: 1440px;
     height: 229px;
     background-color: var(--color-bg-info);
     margin: auto;
@@ -79,8 +75,8 @@ main {
 }
 
 
-.info h2 {
-    font-size: 40px;
+.info > h2 {
+    font-size: 35px;
     font-weight: 600;
     line-height: 28px;
 }
@@ -93,7 +89,7 @@ main {
 
 .conteudo {
     display: flex;
-    gap: 64px;
+    gap: px;
     justify-content: center;
     align-items: center;
     padding: 82px 54px;
@@ -108,7 +104,6 @@ main {
 .texto > h1 {
     font-size: 40px;
     font-weight: 500;
-    line-height: 20px;
     margin-bottom: 40px;
 }
 
@@ -119,12 +114,17 @@ main {
 }
 
 .imagem {
-    background: url(../imagens/foto1.svg);
     width: 510px;
     height: 605px;
     flex-shrink: 0;
     border-radius: 30px;
+    background: url(../imagens/foto2.jpg);
 }
+
+.imagem.foto1{
+    background: url(../imagens/foto1.svg);
+}
+
 
 footer {
     background-color: var(--color-darkgray);
@@ -132,7 +132,7 @@ footer {
 }
 
 .contato {
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
     
 }
@@ -152,7 +152,7 @@ form {
     gap: 62px;
 }
 
-form > input {
+form > .input {
     padding:20px;
     width: 508px;
     height: 72px;
@@ -166,7 +166,7 @@ form > input {
     
 }
 
-form > input::placeholder {
+form > .input::placeholder {
     color: rgba(0, 0, 0, 0.30);
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
