@@ -28,7 +28,7 @@ header {
 
 #header{
     margin: auto;
-    max-width: 1440px;
+    max-width: 1200px;
 
 }
 
@@ -58,7 +58,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 1440px;
+    max-width: 1200px;
     height: 229px;
     background-color: var(--color-bg-info);
     margin: auto;
@@ -89,7 +89,7 @@ main {
 
 .conteudo {
     display: flex;
-    gap: px;
+    gap: 60px;
     justify-content: center;
     align-items: center;
     padding: 82px 54px;
@@ -118,11 +118,11 @@ main {
     height: 605px;
     flex-shrink: 0;
     border-radius: 30px;
-    background: url(../imagens/foto2.jpg);
+    background: url(../img/foto2.jpg);
 }
 
 .imagem.foto1{
-    background: url(../imagens/foto1.svg);
+    background: url(../img/foto1.svg);
 }
 
 
@@ -132,7 +132,7 @@ footer {
 }
 
 .contato {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: auto;
     
 }
